@@ -1,4 +1,4 @@
-# IT Crowd - React + TS + Tailwind Vite Starter
+# IT Crowd - Next.JS + TS + Tailwind Starter
 
 ## 🚀 Project Setup
 
