@@ -10,6 +10,7 @@
 	"parser": "@typescript-eslint/parser",
 	"rules": {
 		"class-methods-use-this": "off",
+   		"comma-dangle": "error",
 		"no-console": "error",
 		"no-param-reassign": [
 			"error",
