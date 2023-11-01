@@ -1,69 +1,69 @@
 {
-  "root": true,
-  "extends": [
-    "plugin:@typescript-eslint/recommended",
-    "eslint:recommended",
-    "next/core-web-vitals",
-    "airbnb",
-    "prettier"
-  ],
-  "parser": "@typescript-eslint/parser",
-  "rules": {
-    "class-methods-use-this": "off",
-    "no-console": "error",
-    "no-param-reassign": [
-      "error",
-      { "props": true, "ignorePropertyModificationsForRegex": ["^state"] }
-    ],
-    "no-restricted-exports": "off",
-    "no-restricted-syntax": [
-      2,
-      "ForInStatement",
-      "LabeledStatement",
-      "WithStatement"
-    ],
-    "no-unused-vars": "off",
-    "jsx-a11y/label-has-associated-control": [
-      "error",
-      {
-        "depth": 1
-      }
-    ],
-    "import/extensions": "off",
-    "import/no-extraneous-dependencies": "off",
-    "import/prefer-default-export": "off",
-    "react/jsx-filename-extension": "off",
-    "react/jsx-no-bind": "off",
-    "react/jsx-sort-props": [
-      1,
-      {
-        "callbacksLast": true,
-        "shorthandFirst": false,
-        "noSortAlphabetically": false,
-        "reservedFirst": true
-      }
-    ],
-    "react/react-in-jsx-scope": "off",
-    "react/require-default-props": "off",
-    "@typescript-eslint/no-unused-vars": [
-      "error",
-      {
-        "argsIgnorePattern": "^_",
-        "varsIgnorePattern": "^_"
-      }
-    ],
-    "@typescript-eslint/ban-ts-comment": "off"
-  },
-  "settings": {
-    "import/resolver": {
-      "alias": {
-        "map": [
-          ["@", "./src"],
-          ["@components", "./src/app/components"],
-          ["@lib", "./src/app/lib"]
-        ],
-        "extensions": [".js", ".jsx", ".ts", ".tsx", ".json"]
-      }
-    }
-  }
+	"root": true,
+	"extends": [
+		"plugin:@typescript-eslint/recommended",
+		"eslint:recommended",
+		"next/core-web-vitals",
+		"airbnb",
+		"prettier"
+	],
+	"parser": "@typescript-eslint/parser",
+	"rules": {
+		"class-methods-use-this": "off",
+		"no-console": "error",
+		"no-param-reassign": [
+			"error",
+			{ "props": true, "ignorePropertyModificationsForRegex": ["^state"] }
+		],
+		"no-restricted-exports": "off",
+		"no-restricted-syntax": [
+			2,
+			"ForInStatement",
+			"LabeledStatement",
+			"WithStatement"
+		],
+		"no-unused-vars": "off",
+		"jsx-a11y/label-has-associated-control": [
+			"error",
+			{
+				"depth": 1
+			}
+		],
+		"import/extensions": "off",
+		"import/no-extraneous-dependencies": "off",
+		"import/prefer-default-export": "off",
+		"react/jsx-filename-extension": "off",
+		"react/jsx-no-bind": "off",
+		"react/jsx-sort-props": [
+			1,
+			{
+				"callbacksLast": true,
+				"shorthandFirst": false,
+				"noSortAlphabetically": false,
+				"reservedFirst": true
+			}
+		],
+		"react/react-in-jsx-scope": "off",
+		"react/require-default-props": "off",
+		"@typescript-eslint/no-unused-vars": [
+			"error",
+			{
+				"argsIgnorePattern": "^_",
+				"varsIgnorePattern": "^_"
+			}
+		],
+		"@typescript-eslint/ban-ts-comment": "off"
+	},
+	"settings": {
+		"import/resolver": {
+			"alias": {
+				"map": [
+					["@", "./src"],
+					["@components", "./src/app/components"],
+					["@lib", "./src/app/lib"]
+				],
+				"extensions": [".js", ".jsx", ".ts", ".tsx", ".json"]
+			}
+		}
+	}
 }
